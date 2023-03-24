@@ -1,10 +1,10 @@
-package med.voll.api.controller.medico;
+package med.clinica.api.controller.medico;
 
 import jakarta.validation.Valid;
-import med.voll.api.domain.medico.Medico;
-import med.voll.api.domain.medico.MedicoRepository;
-import med.voll.api.dto.medico.DadosCadastroMedico;
-import med.voll.api.dto.medico.DadosListagemMedico;
+import med.clinica.api.domain.medico.MedicoRepository;
+import med.clinica.api.domain.medico.Medico;
+import med.clinica.api.dto.medico.DadosCadastroMedico;
+import med.clinica.api.dto.medico.DadosListagemMedico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -30,4 +30,8 @@ public class MedicoController {
         return repository.findAll(paginacao).map(DadosListagemMedico::new);
     }
 
+    @PutMapping
+    public void atualizar() {
+
+    }
 }

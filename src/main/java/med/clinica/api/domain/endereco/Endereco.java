@@ -1,11 +1,11 @@
-package med.voll.api.domain.endereco;
+package med.clinica.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import med.voll.api.dto.endereco.DadosEndereco;
+import med.clinica.api.dto.endereco.DadosEndereco;
 
 @Embeddable
 @Getter

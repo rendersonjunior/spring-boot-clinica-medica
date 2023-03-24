@@ -1,6 +1,6 @@
-package med.voll.api.dto.medico;
+package med.clinica.api.dto.medico;
 
-import med.voll.api.domain.medico.Medico;
+import med.clinica.api.domain.medico.Medico;
 
 public record DadosListagemMedico(
         String nome,

@@ -1,4 +1,4 @@
-package med.voll.api.dto.medico;
+package med.clinica.api.dto.medico;
 
 public enum Especialidade {
 
